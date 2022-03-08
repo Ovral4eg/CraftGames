@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 8313280596613841295}
   - component: {fileID: 4330978755806253694}
   - component: {fileID: 5193175971711624224}
+  - component: {fileID: -8792889085873612796}
   m_Layer: 10
   m_Name: Order UI
   m_TagString: Untagged
@@ -321,3 +322,15 @@ MonoBehaviour:
   icoContainer: {fileID: 1073416974515498757}
   icoPrefab: {fileID: 4051616023555712628, guid: 038998654e7ae0447af98a13ed90c9e8, type: 3}
   progressBar: {fileID: 1618810613319803583}
+--- !u!114 &-8792889085873612796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7948368919303754112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2303ab32e97e5a4b92bc010b9832f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public static GameController ins;
+    public static GameController ins;   
 
     [SerializeField] private SettingsController settingsController;
     [SerializeField] private LevelController levelController;
@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private UIController ui;
 
-    void Start()
+    void Awake()
     {
         ins = this;
 
@@ -68,5 +68,11 @@ public class GameController : MonoBehaviour
     public bool GameIsPaused()
     {
         return gameState == GameState.Pause;       
-    }   
+    }
+
+    [SerializeField] private GameObject mainCameraObject;
+    public GameObject GetMainCameraObject()
+    {
+        return mainCameraObject;
+    }
 }
